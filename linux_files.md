@@ -7,3 +7,6 @@
 
 * Find unique lines
 `unique -u` 
+
+* Count occurences in file
+`grep -o 'needle' file | wc -l`

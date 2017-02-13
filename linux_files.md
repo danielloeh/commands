@@ -10,3 +10,8 @@
 
 * Count occurences in file
 `grep -o 'needle' file | wc -l`
+
+## Vim
+
+* Jump to line
+`:1500` 

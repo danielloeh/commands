@@ -3,13 +3,20 @@
 ## Search  
 
 * Find in file
-`grep "some term" somefile.txt`
+`grep "some term" <file>`
 
 * Find unique lines
-`unique -u` 
+`unique -u <file>` 
 
 * Count occurences in file
-`grep -o 'needle' file | wc -l`
+`grep -o 'needle' <file> | wc -l`
+
+* Get first x chars in file
+`head -c 8 <file>`
+
+* Find pattern in file with chars before and after
+`grep -E -o ".{0,10}myString.{0,10}" <file>` 
+
 
 ## Vim
 

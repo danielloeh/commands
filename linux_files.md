@@ -26,8 +26,8 @@
 * Flip lines
 cmd mode: `ddp`
 
-* Beginning/End of the line
-cmd mode: `0`\`$`
+* Beginning - End of the line
+cmd mode: `0` - `$`
 
 * Beginning/End of the file
-cmd mode: `gg`\`G`
+cmd mode: `gg` - `G`

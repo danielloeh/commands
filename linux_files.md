@@ -17,6 +17,9 @@
 * Find pattern in file with chars before and after
 `grep -E -o ".{0,10}myString.{0,10}" <file>` 
 
+* Find recursivly in files, maching a certain type
+`grep -r --include="*.java" 'RUN_JOBS' ./`
+
 
 ## Vim
 

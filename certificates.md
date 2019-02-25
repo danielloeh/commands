@@ -5,5 +5,5 @@
 * Show cert `openssl x509 -in cert.pem -text -noout`
 
 ### Conversions
-Convert crt to pem `openssl x509 -inform DER -in from.crt -out to.pem  -text`
+* Convert crt to pem `openssl x509 -inform DER -in from.crt -out to.pem  -text`
 
